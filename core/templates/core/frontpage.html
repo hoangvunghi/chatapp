@@ -1,0 +1,14 @@
+{% extends "core/base.html" %}
+
+{% block title %} Chào mừng | {% endblock %}
+
+{% block content %}
+<div>
+    <h1 class="text-3xl text-center font-bold text-gray-900 mt-8">Chào mừng đến với phần mềm Realtime Chat</h1>
+    <p class="text-center text-gray-600 mt-2 px-5">Bài tập lớn môn Nguyên lí hệ điều hành về socket</p>
+    <div class="flex justify-center items-center mt-6">
+        <a href="/login" class="bg-amber-400 hover:bg-amber-500 text-black font-bold py-2 px-4 rounded mr-4">Đăng nhập</a>
+        <a href="/register" class="bg-amber-400 hover:bg-amber-500 text-black font-bold py-2 px-4 rounded">Đăng kí</a>
+    </div>
+</div>
+{% endblock %}
